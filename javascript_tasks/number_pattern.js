@@ -11,8 +11,7 @@ prompts.question("How many row you want to print ?", function (row_num) {
             str = str + (num % 10);
             num++;
         }
-        num--;
-        num--;
+        num=num-2;
         for (var j = 1; j < i; j++) {
             str = str + (num % 10);
             num--;
