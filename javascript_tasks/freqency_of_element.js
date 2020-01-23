@@ -1,4 +1,4 @@
-var arr = [10, 3, 5, 12, 5, 3, 9, 1];
+var arr = [10, 3, 5, 12, 5, 3, 9, 1,0,0,-1,-1];
 var i, j, count;
 var arrSize = arr.length;
 for (i = 0; i < arrSize; i++) {
